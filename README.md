@@ -37,3 +37,14 @@ python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.002
 
 Limit Order:
 python cli.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.002 --price 70000
+## Sample Output
+
+Example Market Order Response:
+
+{
+  "orderId": 12439001007,
+  "symbol": "BTCUSDT",
+  "status": "NEW",
+  "type": "MARKET",
+  "side": "BUY"
+}
